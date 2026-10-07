@@ -1,8 +1,6 @@
 # 🎲 Digital Dice | Verilog + CPLD
 
-A 4-player digital dice system implemented in Verilog on a CPLD as part of the **ELL1401 Digital Electronics Lab, IIT Delhi, Semester 1, 2025**.
-
-> **Important:** This repository preserves the implementation that was actually developed, simulated, and demonstrated on the CPLD for the course project. No untested RTL modifications have been substituted into the main implementation.
+A 4-player digital dice system implemented in Verilog on a CPLD as part of the **ELL1401 Digital Electronics Lab, IIT Delhi, Semester 1, 2025**
 
 ## Features
 
@@ -38,9 +36,7 @@ digital-dice-verilog/
 ├── tb/
 │   └── Dice4_tb.v
 ├── constraints/
-│   └── Dice4.qsf
-└── docs/
-    └── project_notes.md
+    └── Dice4.qsf
 ```
 
 ## Architecture
@@ -115,13 +111,11 @@ tb/Dice4_tb.v
 
 It generates the clock, applies reset, triggers several player-button events, and allows the design to be observed in ModelSim.
 
-The original project report includes ModelSim waveform screenshots demonstrating the simulated signals.
 
 ## Hardware
 
 The original project was implemented on the MAX3000A CPLD and physically demonstrated using a 7-segment display, LEDs, push-button input, and buzzer.
 
-The original report also contains the pin planner and hardware observation photographs.
 
 ## Pin assignments
 
@@ -143,25 +137,4 @@ The original project report identifies several practical considerations:
 - dice-state mapping,
 - reset handling.
 
-Possible future improvements include:
-
-- hardware/software debouncing,
-- a dedicated clock divider for a precise rolling duration,
-- improved pseudo-randomness / unbiased dice mapping,
-- cleaner finite-state-machine decomposition,
-- parameterized display timing.
-
-These are listed as **future work**, not claimed as completed features of the tested course implementation.
-
-## Project documentation
-
-See `docs/project_notes.md` for implementation notes and the distinction between the tested course version and possible future improvements.
-
-## CV description
-
-Suggested CV entry:
-
-**Digital Dice | Verilog, CPLD**  
-- Designed and implemented a 4-player digital dice system with turn tracking, extra-turn logic, 7-segment display and LED/buzzer control.
-- Implemented an LFSR-based pseudo-random number generator and sequential control logic, and verified the design through RTL simulation and CPLD hardware testing.
 

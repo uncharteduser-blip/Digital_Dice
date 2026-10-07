@@ -1,4 +1,4 @@
-# Pin assignments documented in the original ELL1401 Digital Dice report.
+# Pin assignments
 # Target device: MAX3000A / EPM3064ALC44-10
 
 set_location_assignment PIN_43 -to clk
