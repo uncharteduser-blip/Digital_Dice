@@ -1,0 +1,17 @@
+# Quartus / ModelSim generated files
+db/
+incremental_db/
+simulation/
+*.rpt
+*.summary
+*.qws
+*.vcd
+*.wlf
+*.jou
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+# Pin assignments documented in the original ELL1401 Digital Dice report.
+# Target device: MAX3000A / EPM3064ALC44-10
+
+set_location_assignment PIN_43 -to clk
+set_location_assignment PIN_19 -to extra_led
+set_location_assignment PIN_14 -to player_btn
+set_location_assignment PIN_4 -to reset
+
+set_location_assignment PIN_27 -to player_leds[3]
+set_location_assignment PIN_26 -to player_leds[2]
+set_location_assignment PIN_25 -to player_leds[1]
+set_location_assignment PIN_24 -to player_leds[0]
+
+set_location_assignment PIN_18 -to seg[6]
+set_location_assignment PIN_41 -to seg[5]
+set_location_assignment PIN_39 -to seg[4]
+set_location_assignment PIN_34 -to seg[3]
+set_location_assignment PIN_37 -to seg[2]
+set_location_assignment PIN_40 -to seg[1]
+set_location_assignment PIN_16 -to seg[0]
