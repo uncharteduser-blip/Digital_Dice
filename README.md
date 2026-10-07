@@ -1,4 +1,4 @@
-# 🎲 Digital Dice | Verilog + CPLD
+#  Digital Dice | Verilog + CPLD
 
 A 4-player digital dice system implemented in Verilog on a CPLD as part of the **ELL1401 Digital Electronics Lab, IIT Delhi, Semester 1, 2025**
 
